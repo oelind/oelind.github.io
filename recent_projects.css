@@ -1,0 +1,43 @@
+:root{
+    --tealish_thing: rgb(23, 121, 234);
+    --slu_scarlet:rgb(170, 24, 44);
+    --slu_dark_brown:#653A2B;
+    --slu_light_brown: #D5BA8C;
+    --light_tealesk: rgb(0, 195, 255);
+    --ivoryish: rgb(241, 241, 225);
+    --hex_cdf_ancientMoss:#1e2700; /* nav bar color    */
+
+}
+
+#name {
+    /*flex-grow: 1;
+    flex-basis: 0;
+    */
+    flex: 1; /* automaticaly updates flex basis */
+    color:black;
+    text-align:inline;
+    
+
+}
+
+
+#nav_stuff_header{
+    color:var(--ivoryish);
+    background-color: var(--hex_cdf_ancientMoss);
+   /* background-color: var(--slu_scarlet);*/
+
+    /*  root em is the hieght of the text for the root element <html>*/
+    padding: 0.5rem; /* defines a margin from edge of webpage
+    border-radius: 0.5rem;  rounds corners of heading and img*/
+}
+
+#profile_pic{
+    max-width:300px;
+    padding: 0.5rem;
+
+    
+    border-width: 1px;
+    border-style:solid;
+    border-color: grey;
+    border-radius:1%;
+}
