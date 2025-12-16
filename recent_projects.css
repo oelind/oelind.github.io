@@ -49,18 +49,18 @@ navbar-brand{
 
 
 
-education{
+#education{
     color:var(--ivoryish);
     background-color: var(--hex_med_green);
 }
 
-skill{
+#skills{
 
     background-color: var(--hex_light_blue);
 }
 
 
-pic_then_yap{
+#pic_then_yap{
     margin-bottom: 2rem;
     margin-right: 2rem;
 }
