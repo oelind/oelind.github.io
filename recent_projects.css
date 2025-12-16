@@ -22,6 +22,9 @@
 
 }
 
+navbar-brand{
+    color:var(--ivoryish);
+}
 
 #nav_stuff_header{
     color:var(--ivoryish);
