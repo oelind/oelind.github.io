@@ -6,6 +6,7 @@
     --light_tealesk: rgb(0, 195, 255);
     --ivoryish: rgb(241, 241, 225);
     --hex_cdf_ancientMoss:#1e2700; /* nav bar color    */
+    --hex_med_green:#689D32;
 
 }
 
@@ -40,4 +41,9 @@
     border-style:solid;
     border-color: grey;
     border-radius:1%;
+}
+
+
+#intro-education{
+    background-color: var(--hex_cdf_ancientMoss);
 }
