@@ -7,6 +7,7 @@
     --ivoryish: rgb(241, 241, 225);
     --hex_cdf_ancientMoss:#1e2700; /* nav bar color    */
     --hex_med_green:#689D32;
+    --hex_light_blue:#98A6FE;
 
 }
 
@@ -44,6 +45,13 @@
 }
 
 
-#intro-education{
-    background-color: var(--hex_cdf_ancientMoss);
+
+education{
+    color:var(--ivoryish);
+    background-color: var(--hex_med_green);
+}
+
+skill{
+
+    background-color: var(--hex_light_blue);
 }
