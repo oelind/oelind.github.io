@@ -73,8 +73,14 @@ pic_then_yap{
 
 #name{
     max-width: 300px;
+    max-height: 30px;
 }
 
-#other{
+#personal_email{
     max-width: 300px;
+    max-height: 30px;
+}
+#other{
+     max-width: 300px;
+    max-height: 30px;
 }
