@@ -39,12 +39,6 @@ navbar-brand{
 #profile_pic{
     max-width:300px;
     padding: 0.5rem;
-
-    
-    border-width: 1px;
-    border-style:solid;
-    border-color: grey;
-    border-radius:1%;
 }
 
 
@@ -63,4 +57,10 @@ navbar-brand{
 #pic_then_yap{
     margin-bottom: 2rem;
     margin-right: 2rem;
+}
+
+#input-grouped{
+    color:var(--ivoryish);
+    background-color: var(--hex_med_green);
+
 }

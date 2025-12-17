@@ -77,21 +77,65 @@ top of the page-->
         </div>
 
 
+        <form action="https://api.web3forms.com/submit" method="POST"> <!--need attribute -- extra stuff inside tag-->
 
-        <ul class="list-group" id="reaching_out_reasons">
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-            </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
-            </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-            </li>
-        </ul>
+            <div class="input-group mb-3 " id="input-grouped">
+
+            <input type="hidden" name="access_key" value="5418b986-644a-4dbe-97ec-8d01d4ad2a4e">
+            <!--what will allow info submitted in the form to be sent to us-->
+
+            <!--Option to leve contact info -->
+            <!--what will allow info submitted in the form to be sent to us-->
+            <label for="name">Your name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="personal_email">Your email:</label>
+            <input type="email" name="personal_email" id="personal_email"> <!--email type for entry verifies that the email is an actual email for you-->
+            <br><br>
+
+
+
+            <fieldset>
+                <legend>
+                    Reason or reasons for wanting to get in touch:
+                </legend>
+
+                <input type="checkbox" name="reason" id="network" value="network">
+                <label for="network">Looking to network</label>
+                <br>
+                <input type="checkbox" name="reason" id="friend" value="friend">
+                <label for="friend">Would like to become friends</label>
+                <br>
+                <input type="checkbox" name="reason" id="interview" value="interview">
+                <label for="interview">Want to consider hiring you or potentially interview you</label>
+                <br>
+                <input type="checkbox" name="reason" id="resume" value="resume">
+                <label for="resume">Would like to potentially recieve a formal and complete resume</label>
+                <br>
+                <input type="checkbox" name="reason" id="cv" value="cv">
+                <label for="cv">Want to potentially get a complete formal cover letter</label> 
+                <br>
+                <!---
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="checkbox" value="other" aria-label="Checkbox for following text input">
+                
+                    <input type="text" class="form-control" aria-label="Text input with checkbox">
+                    label
+                </div>
+            -->
+                <input type="text" name="reason" id="other" value="other">
+                <label for="other">other</label>
+            </fieldset>
+
+        </div>
+
+
+
+
+            <input type="submit" value="Submit info">
+        </form>
+
 
         <!--insert contact form here-->
 
