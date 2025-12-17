@@ -59,6 +59,11 @@ pic_then_yap{
     margin-right: 2rem;
 }
 
+#projects{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
 #input-grouped{
     color:var(--ivoryish);
     background-color: var(--hex_med_green);
