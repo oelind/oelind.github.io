@@ -49,7 +49,7 @@ navbar-brand{
 }
 
 #skills{
-
+    color:var(--ivoryish);
     background-color: var(--hex_light_blue);
 }
 
