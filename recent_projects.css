@@ -64,3 +64,11 @@ pic_then_yap{
     background-color: var(--hex_med_green);
 
 }
+
+#name{
+    max-width: 300px;
+}
+
+#other{
+    max-width: 300px;
+}
